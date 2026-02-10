@@ -9,7 +9,7 @@ except FileNotFoundError:
     st.error("🚨 Files not found! Make sure you ran Step 1 to save 'model_columns.pkl'.")
     st.stop()
 
-st.title("🧠 Student Mental Health Screening Tool")
+st.title("Student Mental Health Screening Tool")
 
 st.sidebar.header("Student Profile")
 academic_pressure = st.sidebar.slider("Academic Pressure (1-5)", 1, 5, 3)
